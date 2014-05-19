@@ -20,6 +20,7 @@
       - kaleidoscope
       - appcleaner
       - google-drive
+      - sublime-text
     brews:
       - ack
       - hub
@@ -33,7 +34,7 @@
       - wget
       - htop
       - tmux
-      -fasd
-      
+      - fasd
+  
   tasks:
     - include: tasks/homebrew.yml tags=homebrew
