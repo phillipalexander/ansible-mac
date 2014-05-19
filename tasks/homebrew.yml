@@ -19,7 +19,7 @@
   register: brew_cask_installed
 
 - name: Install homebrew-cask
-  shell: brew tap phinze/cask && brew install brew-cask
+  shell: brew tap caskroom/cask && brew install brew-cask && brew tap caskroom/versions
   when: brew_cask_installed.stat.exists == false
 
 - name: Check for installed casks
