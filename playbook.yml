@@ -1,0 +1,38 @@
+---
+- hosts: all
+
+  vars:
+    home_dir: /Users/phillipalexander
+    application_dir: "{{ home_dir }}/Applications"
+    caskroom_dir: /opt/homebrew-cask/Caskroom
+    applications:
+      - alfred
+      - flux
+      - firefox
+      - google-chrome
+      - handbrake
+      - hipchat
+      - vlc
+      - brackets
+      - notational-velocity
+      - licecap
+      - dash
+      - kaleidoscope
+      - appcleaner
+      - google-drive
+    brews:
+      - ack
+      - hub
+      - rsync
+      - zsh
+      - mongodb
+      - figlet
+      - sqlite
+      - mysql
+      - tree
+      - wget
+      - htop
+      - tmux
+      
+  tasks:
+    - include: tasks/homebrew.yml tags=homebrew
