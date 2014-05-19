@@ -33,6 +33,7 @@
       - wget
       - htop
       - tmux
+      -fasd
       
   tasks:
     - include: tasks/homebrew.yml tags=homebrew
