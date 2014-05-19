@@ -20,7 +20,6 @@
       - kaleidoscope
       - appcleaner
       - google-drive
-      - sublime-text
     brews:
       - ack
       - hub
