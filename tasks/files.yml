@@ -1,0 +1,3 @@
+---
+- name: Copy slate config to home directory
+  copy: src=files/slate.js dest="{{ home_dir }}/.slate.js" owner=phillipalexander group=staff mode=640

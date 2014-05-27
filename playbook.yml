@@ -37,5 +37,6 @@
       - tmux
       - fasd
 
-tasks:
-    - include: tasks/homebrew.yml tags=homebrew
+  tasks:
+      - include: tasks/homebrew.yml tags=homebrew
+      - include: tasks/files.yml tags=files
