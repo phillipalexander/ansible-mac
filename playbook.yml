@@ -21,6 +21,7 @@
       - appcleaner
       - google-drive
       - sublime-text3
+      - slate
     brews:
       - ack
       - hub
@@ -35,6 +36,6 @@
       - htop
       - tmux
       - fasd
-  
-  tasks:
+
+tasks:
     - include: tasks/homebrew.yml tags=homebrew
