@@ -32,7 +32,6 @@
       - mongodb
       - figlet
       - sqlite
-      - mysql
       - tree
       - wget
       - htop
