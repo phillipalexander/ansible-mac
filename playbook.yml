@@ -22,6 +22,8 @@
       - google-drive
       - sublime-text3
       - slate
+      - notational-velocity
+      - transmission
     brews:
       - ack
       - hub
