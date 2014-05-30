@@ -2,7 +2,8 @@
 - hosts: all
 
   vars:
-    home_dir: /Users/phillipalexander
+    user: phillipalexander
+    home_dir: "/Users/{{ user }}"
     application_dir: "{{ home_dir }}/Applications"
     caskroom_dir: /opt/homebrew-cask/Caskroom
     applications:

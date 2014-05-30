@@ -1,3 +1,7 @@
 ---
 - name: Copy slate config to home directory
   copy: src=files/slate.js dest="{{ home_dir }}/.slate.js" owner=phillipalexander group=staff mode=640
+
+- name: Copy launchd.conf config to /etc/launchd.conf to set up global env vars
+  sudo: yes
+  copy: src=files/launchd.conf dest=/etc/launchd.conf owner=root group=staff mode=777

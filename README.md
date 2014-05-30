@@ -7,8 +7,10 @@ Requires ansible.
 
 ## Usage
 
-Make sure to edit the values defined in
+Make sure to edit the values defined in `playbook.yml` to suit your settings
+
+run the playbook:
 
 ```sh
-ansible-playbook ./playbook.yml
+ansible-playbook -K ./playbook.yml
 ```
