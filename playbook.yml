@@ -38,6 +38,7 @@
       - htop
       - tmux
       - fasd
+      - ssh-copy-id
 
   tasks:
       - include: tasks/homebrew.yml tags=homebrew
