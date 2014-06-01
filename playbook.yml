@@ -6,6 +6,9 @@
     home_dir: "/Users/{{ user }}"
     application_dir: "{{ home_dir }}/Applications"
     caskroom_dir: /opt/homebrew-cask/Caskroom
+    zsh_path: /usr/local/bin/zsh
+    user_lib: "/Users/{{ user }}/Library"
+    user_lib_prefs: "{{ user_lib }}/Preferences"
     applications:
       - alfred
       - flux
@@ -43,3 +46,4 @@
   tasks:
       - include: tasks/homebrew.yml tags=homebrew
       - include: tasks/files.yml tags=files
+
