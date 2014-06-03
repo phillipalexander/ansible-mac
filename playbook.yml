@@ -47,4 +47,5 @@
       - include: tasks/homebrew.yml tags=homebrew
       - include: tasks/files.yml tags=files
       - include: tasks/vim.yml tags=vim
+      - include: tasks/zsh.yml tags=zsh
 
