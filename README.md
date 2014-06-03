@@ -3,7 +3,12 @@
 A mirror of the Ansible scripts used to provision my Macbook, minus any private stuff.
 
 ## Environment
-Requires ansible.
+
+install ansible:
+
+```sh
+brew install ansible
+```
 
 ## Usage
 

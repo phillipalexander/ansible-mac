@@ -9,7 +9,7 @@
     zsh_path: /usr/local/bin/zsh
     user_lib: "/Users/{{ user }}/Library"
     user_lib_prefs: "{{ user_lib }}/Preferences"
-    applications:
+    homebrew_cask_packages:
       - alfred
       - flux
       - firefox
@@ -26,9 +26,9 @@
       - google-drive
       - sublime-text3
       - slate
-      - notational-velocity
       - transmission
-    brews:
+      - vmware-fusion
+    homebrew_packages:
       - ack
       - hub
       - rsync
