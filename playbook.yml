@@ -28,6 +28,7 @@
       - slate
       - transmission
       - vmware-fusion
+      - clamxav
     homebrew_packages:
       - ack
       - hub
