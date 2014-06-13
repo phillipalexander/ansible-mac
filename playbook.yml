@@ -29,6 +29,7 @@
       - transmission
       - vmware-fusion
       - clamxav
+      - evernote
     homebrew_packages:
       - ack
       - hub
