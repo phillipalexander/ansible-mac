@@ -30,6 +30,7 @@
       - vmware-fusion
       - clamxav
       - evernote
+      - makerware
     homebrew_packages:
       - ack
       - hub
