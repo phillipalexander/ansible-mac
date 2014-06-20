@@ -31,6 +31,7 @@
       - clamxav
       - evernote
       - makerware
+      - screenflow
     homebrew_packages:
       - ack
       - hub
