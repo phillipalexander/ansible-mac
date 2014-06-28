@@ -33,7 +33,8 @@
       - evernote
       - makerware
       - screenflow
-    homebrew_packages:
+      - controllermate
+   homebrew_packages:
       - ack
       - hub
       - rsync
