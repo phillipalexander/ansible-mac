@@ -26,15 +26,15 @@
       - appcleaner
       - google-drive
       - sublime-text3
-      - slate
       - transmission
       - vmware-fusion
       - clamxav
       - evernote
+      - openscad
       - makerware
       - screenflow
-      - controllermate
-      - openscad
+      - slate
+      - amethyst
    homebrew_packages:
       - ack
       - hub
