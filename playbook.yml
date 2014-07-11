@@ -35,6 +35,7 @@
       - screenflow
       - slate
       - amethyst
+      - mou
    homebrew_packages:
       - ack
       - hub
