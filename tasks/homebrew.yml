@@ -16,8 +16,8 @@
 - name: Tap homebrew cask versions
   homebrew_tap: tap=caskroom/versions state=present
 
-- name: Install homebrew cask
-  homebrew: name=brew-cask
+# - name: Install homebrew cask
+#   homebrew: name=brew-cask
 
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }} state=installed

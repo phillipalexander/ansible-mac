@@ -1,0 +1,5 @@
+---
+
+- name: Install npm packages
+  npm: name={{ item }} global=yes
+  with_items: npm_modules
