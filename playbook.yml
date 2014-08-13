@@ -35,6 +35,7 @@
       - screenflow
       - slate
       - amethyst
+      - karabiner
       - mou
     homebrew_packages:
       - ack
