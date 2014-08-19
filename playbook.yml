@@ -20,7 +20,6 @@
       - vlc
       - brackets
       - notational-velocity
-      - licecap
       - dash
       - kaleidoscope
       - appcleaner
@@ -30,13 +29,13 @@
       - vmware-fusion
       - clamxav
       - evernote
-      - openscad
       - makerware
       - screenflow
       - slate
       - amethyst
       - karabiner
       - mou
+      - recordit
     homebrew_packages:
       - ack
       - hub
@@ -54,6 +53,7 @@
       - redis
     npm_modules:
       - node-inspector
+      - node-theseus
       - yo
       - generator-commander
       - mocha
