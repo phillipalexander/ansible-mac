@@ -37,6 +37,7 @@
       - mou
       - recordit
       - dropbox
+      - graphsketcher
     homebrew_packages:
       - ack
       - hub
